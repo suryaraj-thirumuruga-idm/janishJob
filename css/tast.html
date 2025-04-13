@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="form">
+        <label for="">UserName : </label>
+        <input type="text" id="name" > <br>
+
+        <label for="">Adddress :</label> 
+       <textarea name="" id="add" ></textarea> <br>
+
+        <label for="">PhoneNumber :</label>
+        <input type="number" id="number" >  <br><br><br>
+
+        <label for="">ProductList :</label>
+        <select name="" id="ProductList" >
+            <option value="">Rise</option>
+            <option value="">Dall</option>
+            <option value="">Oil</option>
+            <option value="">Water</option>
+        </select>
+        <br>
+<br><br>
+
+<label for="" >PayMentMode</label>
+<select name="" id="PayMentMode" >
+    <option value="">CredutCart</option>
+    <option value="">DebitCart</option>
+    <option value="">UPI/ID</option>
+</select>
+
+<br><br>
+<input type="submit" name="" id="">
+    
+    </form>
+
+</body>
+</html>
+<script>
+    let form = document.getElementById('form')
+    let name = document.getElementById('name');
+
+    let Adddress = document.getElementById('add');
+    let number =document.getElementById('number');
+    let ProductList = document.getElementById('ProductList');
+    let PayMentMode = document.getElementById('PayMentMode');
+
+    form.addEventListener('submit',function(e){
+        e.preventDefault()
+
+        if(name===""){
+            alert('Name Error...')
+        }
+        else if(Adddress===''){
+            alert('Address error..')
+        }
+        else if(number.length<10||number.length>10){
+            alert('Number error..')
+            
+        }
+    })
+
+    
+
+</script>
