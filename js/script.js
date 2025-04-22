@@ -136,6 +136,85 @@ const a = 98;
 
 
 
+// let obj ={
+//     Name : "SURIYA",
+//     Age :21,
+//     City : "Erode",
+//     brother :{
+//         Name :"karthick"
+//     }
+// }
+// console.log(obj.brother.Name);
+
+
+
+let ArrObj =[
+    {Name :"Surya1",Age:21},
+    {Name :"Surya2",Age:22},
+    {Name :"Surya3",Age:23},
+    {Name :"Surya4",Age:24},
+    {Name :"Surya5",Age:25},
+]
+
+// console.log(ArrObj[2].Name);
+
+
+// for(let i=0;i<10;i++){
+//     console.log(i);
+// }
+
+
+let a1 =10;
+
+// while(a1<20){
+//     a1++;
+//     console.log(a1);
+//     if(a1==16){
+//         break
+//     }
+    
+// }
+
+// do{
+//     a1++;
+//     console.log(a1);
+    
+// }while(a1<20)
+
+
+
+// for(let i=0;i<ArrObj.length;i++){
+
+//     console.log(ArrObj[i].Name);
+// }
+
+// for(let b in ArrObj){
+
+//     console.log(b);
+    
+// }
+
+
+ArrObj.forEach((i)=>{
+    console.log(i);
+    
+})
+
+ArrObj.map((y)=>{
+    console.log(y);
+    
+})
+
+
+
+
+
+
+
+
+
+
+
 
 
 
