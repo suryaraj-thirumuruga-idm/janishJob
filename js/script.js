@@ -195,15 +195,17 @@ let a1 =10;
 // }
 
 
-ArrObj.forEach((i)=>{
-    console.log(i);
+// ArrObj.forEach((i)=>{
+//     console.log(i);
     
-})
+// })
 
-ArrObj.map((y)=>{
-    console.log(y);
+// ArrObj.map((y)=>{
+//     console.log(y);
     
-})
+// })
+
+
 
 
 
